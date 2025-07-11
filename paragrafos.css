@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<br lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia da arte</title>
+</head>
+        <h1>ESTILOS ARQUITETONICOS</h1>
+
+    </br>
+<style>
+    h1{
+        color: rgb(0, 88, 84);
+        font-family: Augustus;
+        
+        font-size: 116px;
+    }
+     div{
+        color:rgb(245, 225, 137);
+        font-size: 72px;
+        font-family: Augustus;
+     }
+     body{
+        color:aliceblue;
+        background-color:black
+     }
+    p{
+        font-family: Augustus;
+    }
+</style>
+</br><div>CLASSICO</div>
+    <p>Inspirado nas construções gregas e romanas, valoriza a harmonia, proporção e equilíbrio. </p>
+    <div>ROMANICO</div>
+    <p>Caracterizado por arcos redondos, paredes espessas e pouca iluminação, com foco em igrejas e mosteiros. </p>
+    <DIV>GOTICO</DIV>
+    <p>Destaca-se por arcos ogivais, abóbadas de cruzaria, vitrais coloridos e grande altura, como nas catedrais europeias. </p>
+    <DIV>RENASCENTISTA</DIV>
+    <p>Influenciado pela antiguidade clássica, com elementos como cúpulas, colunas e frontões, buscando a perfeição e a harmonia. </p>
+    <DIV>BARROCO</DIV>
+    <p>Marcado por formas exuberantes, ornamentação rica, movimento e teatralidade, presente em igrejas e palácios. </p>
+    <DIV>NEOCLASSICO</DIV>
+    <p>Retoma elementos do classicismo, mas com uma estética mais sóbria e elegante, buscando a ordem e a razão. </p>
+    <DIV>ART NOVEAU</DIV>
+    <p>Caracterizado por linhas curvas, formas orgânicas, temas naturais e uso de materiais como ferro e vidro. </p>
+    <DIV>ART DECÓ</DIV>
+    <p>Inspirado em estilos antigos e novos, com formas geométricas, ornamentação luxuosa e uso de materiais como aço, vidro e laca. </p>
+    <DIV>MODERNO</DIV>
+    <p>Busca a funcionalidade, a simplicidade, o uso de materiais industriais como concreto, aço e vidro, e a eliminação de elementos decorativos. </p>
+</body>
+</html>
