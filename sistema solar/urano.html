@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planeta Mercúrio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at center, #000 0%, #1a1a1a 100%);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #fdd835;
+      text-shadow: 0 0 10px #fdd83580;
+    }
+
+    main {
+      width: 90%;
+      max-width: 800px;
+      background: #222;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #000;
+      padding: 2rem;
+      animation: aparecer 1s ease-in-out;
+    }
+
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    article {
+      background: #333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    article:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px #fdd83580;
+    }
+
+    .planet-name {
+      font-size: 1.8rem;
+      color: #90caf9;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .planet-desc {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><strong>🌍 Sistema Solar</strong></h1>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <div class="planet-name">♅ Urano</div>
+        <div class="planet-desc">
+         Urano é o sétimo planeta do sistema solar, situado entre Saturno e Netuno. A característica 
+mais notável de Urano é a estranha inclinação do seu eixo de rotação, quase noventa graus em 
+relação com o plano de sua órbita; essa inclinação não é somente do planeta, mas também de 
+seus anéis, satélites e campo magnético. Urano tem a superfície a mais uniforme de todos os 
+planetas por sua característica cor azul-esverdeada, produzida pela combinação de gases em 
+sua atmosfera, e tem anéis que não podem ser vistos a olho nu; além disso, tem um anel azul, 
+que é uma peculiaridade planetária. Urano é um de poucos planetas que têm um movimento 
+de rotação retrógrado, similar ao de Vênus
+Tem 27 satélites ao seu redor e um fino anel de poeira.
+        </div>
+           </br>
+          <A href = "index.html">Voltar
+          </A>
+      </article>
+    </section>
+  </main>  
+  <footer>
+    <p>© 2025 caio93martins@gmail.com |
+      <link>instagram: @caioomm</link> | Desenvolvido por Caio Martins Metello</p>
+  </footer>
+
+</body>
+</html>

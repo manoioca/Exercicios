@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planeta Mercúrio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at center, #000 0%, #1a1a1a 100%);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #fdd835;
+      text-shadow: 0 0 10px #fdd83580;
+    }
+
+    main {
+      width: 90%;
+      max-width: 800px;
+      background: #222;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #000;
+      padding: 2rem;
+      animation: aparecer 1s ease-in-out;
+    }
+
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    article {
+      background: #333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    article:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px #fdd83580;
+    }
+
+    .planet-name {
+      font-size: 1.8rem;
+      color: #90caf9;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .planet-desc {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><strong>🌍 Sistema Solar</strong></h1>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <div class="planet-name">♄ Saturno</div>
+        <div class="planet-desc">
+          É o segundo maior planeta do nosso sistema solar. É famoso por seus anéis, que podem ser 
+vistos com o auxílio de pequenos telescópios. Os anéis são feitos com pedaços de gelo e 
+rochas. A temperatura média da superfície do planeta é de -140ºC. Saturno é formado 
+basicamente por hidrogênio e pequena quantidade de hélio.
+O movimento de rotação em volta do seu eixo demora cerca de 10,5 horas, e cada revolução ao 
+redor do Sol leva 30 anos terrestres.
+Tem um número elevado de satélites, 60 descobertos até então, dos quais 35 possuem nomes, 
+e está cercado por um complexo de anéis concêntricos, composto por dezenas de anéis 
+individuais separados por intervalos, estando o mais exterior destes situado a 138 000 km do 
+centro do planeta geralmente compostos por restos de meteoros e cristais de gelo. Alguns 
+deles têm o tamanho de uma casa.
+
+        </div>
+    </br>
+          <A href = "index.html">Voltar
+          </A>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 caio93martins@gmail.com |
+      <link>instagram: @caioomm</link> | Desenvolvido por Caio Martins Metello</p>
+  </footer>
+
+</body>
+</html>

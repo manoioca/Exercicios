@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planeta Mercúrio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'tahoma', sans-serif;
+      background: radial-gradient(circle at center, #000 0%, #1a1a1a 100%);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      color: #fdd835;
+      text-shadow: 0 0 10px #fdd83580;
+    }
+
+    main {
+      width: 90%;
+      max-width: 800px;
+      background: #222;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #000;
+      padding: 2rem;
+      animation: aparecer 1s ease-in-out;
+    }
+
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    article {
+      background: #333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    article:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px #fdd83580;
+    }
+
+    .planet-name {
+      font-size: 1.8rem;
+      color: #90caf9;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .planet-desc {
+      font-size: 0.7rem;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><strong>🌍 Sistema Solar</strong></h1>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <div class="planet-name">Contatos</div>
+        <div class="planet-desc">
+        </br>
+          <li>Instagram: @caioomm</li>
+          <li><a href="https://www.linkedin.com/in/caio-martins-metello-388588208/" target="_blank">LinkedIn</a></div></li>
+          <li><a href=https://github.com/manoioca target="_blank">GitHub</a></div></li>
+        </br><li>E-mail: caio93martins@gmail.com</li>
+
+        </div>
+           </br>
+          <A href = "index.html">Voltar
+          </A>
+      </article>
+    </section>
+  </main>
+<footer>
+    <p>© 2025 caio93martins@gmail.com |
+      <link>instagram: @caioomm</link> | Desenvolvido por Caio Martins Metello</p>
+  </footer>
+
+
+</body>
+</html>

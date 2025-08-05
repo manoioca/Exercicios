@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sistema Solar</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'SF Distant Galaxy Outline', sans-serif;
+      background: radial-gradient(ellipse at center, #000 0%, #111 100%);
+      color: white;
+    }
+
+    header {
+      background: #0a0a0a;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+      
+    }
+
+    nav a:hover {
+      color: #fde67d;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #fdd835;
+      font-size: 36px
+    }
+
+    h3 {
+      
+      font-family:'SF Distant Galaxy Outline';
+      margin-bottom: 1rem;
+      color: #defd6b;
+      font-size: 36px
+    }
+
+    
+    div {
+      font-family: sans-serif;
+      margin-bottom: 1rem;
+      color: #ecffa6;
+      font-size: 12px
+    }
+
+    .planetas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    article {
+      background: #000000;
+      padding: 1rem;
+      border-radius: 10px;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.35s, box-shadow 0.35s;
+      cursor: pointer;
+    }
+
+    article:hover {
+      transform: scale(1.45);
+      box-shadow: 0 0 15px #fdf034;
+    }
+
+    article img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: #0a0a0a;
+      text-align: center;
+      padding: 1rem;
+      border-top: 2px solid #333;
+      font-size: 0.9rem;
+    }
+</style>

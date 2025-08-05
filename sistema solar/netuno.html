@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planeta Mercúrio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at center, #000 0%, #1a1a1a 100%);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #fdd835;
+      text-shadow: 0 0 10px #fdd83580;
+    }
+
+    main {
+      width: 90%;
+      max-width: 800px;
+      background: #222;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #000;
+      padding: 2rem;
+      animation: aparecer 1s ease-in-out;
+    }
+
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    article {
+      background: #333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    article:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px #fdd83580;
+    }
+
+    .planet-name {
+      font-size: 1.8rem;
+      color: #90caf9;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .planet-desc {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><strong>🌍 Sistema Solar</strong></h1>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <div class="planet-name">♆ Netuno</div>
+        <div class="planet-desc">
+          Orbitando tão longe do Sol, Netuno recebe muito pouco calor. A sua temperatura superficial 
+média é de -218 °C. No entanto, o planeta parece ter uma fonte interna de calor. Pensa-se que 
+isto se deve ao calor restante, gerado pela matéria em queda durante o nascimento do planeta, 
+que agora irradia pelo espaço fora.
+A atmosfera de Netuno tem as mais altas velocidades de ventos no sistema solar, que são 
+acima de 2000 km/h; acredita-se que os ventos são amplificados por este fluxo interno de calor. 
+A estrutura interna lembra a de Urano - um núcleo rochoso coberto por uma crosta de gelo, 
+escondida no profundo de sua grossa atmosfera. Os dois terços internos de Netuno são 
+compostos de uma mistura de rocha fundida, água, amônia líquida e metano. A terça parte 
+exterior é uma mistura de gases aquecidos composta por hidrogênio, hélio, água e metano.
+Embora não sejam visíveis nas fotografias do telescópio espacial Hubble, Netuno faz parte dos 
+planetas gigantes que possuem um complexo sistema de anéis. Possui cinco anéis principais e 
+sua descoberta se deve a uma observação efetuada ainda em 1984 a bordo de um avião U2 
+que acompanhou o deslocamento do planeta por algumas horas durante a ocultação de uma 
+estrela. Neptuno tem 13 luas conhecidas. A maior delas é Tritão, descoberta por William Lassell 
+apenas 17 dias depois da descoberta de Netuno.
+
+        </div>
+    </br>
+          <A href = "index.html">Voltar
+          </A>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 caio93martins@gmail.com |
+      <link>instagram: @caioomm</link> | Desenvolvido por Caio Martins Metello</p>
+  </footer>
+
+</body>
+</html>
